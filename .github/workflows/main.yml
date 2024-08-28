@@ -21,8 +21,8 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: | 
-          jnegociosdigitais/aula-primeira-pipeline:v${{ github.run_number }} 
-          jnegociosdigitais/aula-primeira-pipeline:latest 
+          jordani/aula-primeira-pipeline:v${{ github.run_number }} 
+          jordani/aula-primeira-pipeline:latest 
   CD:
     runs-on: ubuntu-latest
     needs: [CI]
