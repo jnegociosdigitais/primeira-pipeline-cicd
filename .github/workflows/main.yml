@@ -40,4 +40,4 @@ jobs:
         manifests: |
           ./k8s/deployment.yaml
         images: |
-          jnegociosdigitais/aula-primeira-pipeline:v${{ github.run_number }}
+          jordani/aula-primeira-pipeline:v${{ github.run_number }}
